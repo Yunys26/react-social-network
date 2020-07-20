@@ -1,0 +1,8 @@
+.contentDialogs{
+    color: black;
+    display: flex;
+}
+.dialogsUser > ul > div:last-child {
+    color: red;
+}
+

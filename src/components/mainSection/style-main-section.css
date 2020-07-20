@@ -1,0 +1,20 @@
+main {
+    display: grid;
+    grid-template-columns: 20% 60%;
+    grid-template-rows: 1fr;
+    /* grid-gap: 100px; */
+    grid-area: main;
+    margin: 0 15% 0 15%;
+
+}
+
+menu {
+    margin: 0;
+    /* grid-area: sidebar;  */
+}
+
+.content {
+    display: grid;
+    text-shadow: 0 0 3px black;
+    /* grid-area: section; */
+}
